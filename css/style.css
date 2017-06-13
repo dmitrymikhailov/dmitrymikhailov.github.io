@@ -1,0 +1,9 @@
+.main_element{
+	height: 100px;
+	border:2px solid #000;
+}
+.in_element{
+	height: 50px;
+	background-color: green;
+	outline:1px solid black;
+}
