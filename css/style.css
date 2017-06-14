@@ -1,9 +1,36 @@
-.main_element{
-	height: 100px;
-	border:2px solid #000;
+*{
+	margin:0;
+	padding: 0;
 }
-.in_element{
-	height: 50px;
-	background-color: green;
-	outline:1px solid black;
+.container{
+	position:fixed;
+	width: 100%;
+	background-color: black;
 }
+
+.container a{
+	color:white;
+	display: block;
+}
+
+.element{
+	width: 300px;
+	height: 400px;
+	border:2px solid gray;
+	padding:20px 30px;
+	box-sizing: border-box;
+	position: fixed;
+	left: 50%;
+	top:50%;
+	margin-left: -150px;
+	margin-top: -200px;
+}
+.block{
+	width: 20%;
+	position: absolute;
+	left:60%;
+}
+.block2{
+	width:20%;
+}
+
